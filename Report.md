@@ -7,10 +7,8 @@
 На тестирование затрачено: 2 часа
 
 В результате тестирования выявлены следующие дефекты:
-* https://github.com/dianest/Java1KeyValidator/issues/1
-* https://github.com/dianest/Java1KeyValidator/issues/2
-* https://github.com/dianest/Java1KeyValidator/issues/3
-* https://github.com/dianest/Java1KeyValidator/issues/4
+* "При вводе валидного ключа выдается результат Fail": https://github.com/dianest/Java1KeyValidator/issues/2
+* "При вводе невалидного ключа выдается результат OK": https://github.com/dianest/Java1KeyValidator/issues/4
 
 ## Описание процесса тестирования
 
@@ -23,8 +21,6 @@
 
 
 В качестве тестовых данных использовались данные из руководства использования https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md:
-* Ключ 00000000-0000-0000-0000-000000000000, Result for 00000000-0000-0000-0000-000000000000: OK
-* Ключ 00000000-0000-0000-0000-000000000001, Result for 00000000-0000-0000-0000-000000000001: FAIL
 * Ключ 8f05e6a7-70e9-33d7-bfe7-b19eae0d8998, Result for 8f05e6a7-70e9-33d7-bfe7-b19eae0d8998: OK
 * Ключ 80b427f8-92cd-3aae-ba04-3927fbe17c6, Result for 80b427f8-92cd-3aae-ba04-3927fbe17c6: OK
 * Ключ b295bc63-9f03-3b4b-af80-969b39f8c262, Result for b295bc63-9f03-3b4b-af80-969b39f8c262: OK
